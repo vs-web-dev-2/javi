@@ -1,0 +1,45 @@
+function saludar() {
+    console.log("Hola mundo");
+ }
+ saludar();
+
+ function saludarPorNombre(nombre) {
+     console.log("Hol " + nombre);
+  }
+
+  saludarPorNombre("Alberto");
+  let amigo= "Miguel";
+  saludarPorNombre(amigo);
+
+  function saludarElaborado(nombre,saludo = "Hola") {
+      console.log(saludo + ", " + nombre);
+    }
+  saludarElaborado("Sergio","Buenos dias ");
+  saludarElaborado("Dosil");
+
+function calcularCircunferencia(r) {
+    // 2 * PI * r
+    const PI = 3.14;
+    return 2 * PI * r;
+}
+let circunferencia = calcularCircunferencia(5);
+console.log(circunferencia);
+
+let radio = 20;
+circunferencia = calcularCircunferencia(radio);
+console.log(circunferencia);
+let r = 30;
+circunferencia = calcularCircunferencia(r);
+console.log(circunferencia);
+const PI = 9;
+circunferencia = calcularCircunferencia(100);
+console.log(circunferencia);
+
+let lado = 10;
+
+function calcularSuperficie(lado) {
+return lado * lado
+}
+console.log(calcularSuperficie(9));
+
+
