@@ -42,4 +42,12 @@ return lado * lado
 }
 console.log(calcularSuperficie(9));
 
-
+//----------------------
+const lados = 9;
+function calcularPerimetro(lado) {
+  const lados = 4;
+  console.log("lados local: " + lados);
+  return lado * lados;
+}
+console.log(calcularPerimetro(5));
+console.log("lados global: " + lados);

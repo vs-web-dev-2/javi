@@ -38,3 +38,9 @@ let esGrande = bici.radio > 25;
 console.log(esGrande);
 let meGusta = bici.color == "azul";
 console.log(meGusta);
+
+//es posible hacer lo siguiente y javascript interpreta
+console.log(1 + 1);
+console.log("1" + "1");
+console.log("1" + 1);
+console.log(1 + "1");
