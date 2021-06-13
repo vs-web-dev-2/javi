@@ -45,19 +45,19 @@ function obtenerCriterio1(numeros, funcionCriterio) {
   }
   return result;
 }
-// console.log(obtenerCriterio1(numeros, esPrimo));
+ console.log("Es primo: " + obtenerCriterio1(numeros, esPrimo));
 // console.log(obtenerCriterio1(numeros, esMultiplo));
 // console.log(obtenerCriterio1(numeros, esPar));
 // // función anónima arrow
-// console.log(
-//   obtenerCriterio1(numeros, (numero) => {
-//     if (numero % 2 === 0) {
-//       return true;
-//     } else {
-//       return false;
-//     }
-//   })
-// );
+ console.log("prueba: " +
+  obtenerCriterio1(numeros, (numero) => {
+    if (numero % 2 === 0) {
+      return true;
+    } else {
+      return false;
+    }
+  })
+);
 
 // console.log(obtenerCriterio1(numeros, (numero) => (numero % 2 === 0 ? true : false)));
 
@@ -99,6 +99,9 @@ function obtenerCriterioGeneral(array, funcionCriterio) {
   return result;
 }
 let paises = ["españa", "francia", "eeuu"];
+
+//la siguiente sentencia se puede escribir de dos formas, la comentada y la siguiente:
+//let empezarPorE = function (pais) {if(pais[0] == "e") {return true;}else{return false;}}
 let empezarPorE = (pais) => pais[0] == "e";
 
 console.log(obtenerCriterioGeneral(paises, empezarPorE));
@@ -110,5 +113,6 @@ let productos = [
 ];
 console.log(obtenerCriterioGeneral(productos, (producto) => producto.precio > 10));
 
+//console.log(paises.empezarPorE);
 console.log(paises.filter(empezarPorE));
 console.log(productos.filter((producto) => producto.iva === "normal"));
