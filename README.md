@@ -1,4 +1,9 @@
 # FRANCISCO JAVIER RABASCO MORENO
 
-Analista cobol vivo en Madrid
+## Conocimientos
+Analista cobol 
+Programador en **JavaScript**
+
+##Datos personales
+Vivo en Madrid
 
