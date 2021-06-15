@@ -1,6 +1,7 @@
 # FRANCISCO JAVIER RABASCO MORENO
 
 ## Conocimientos
+
 - Analista cobol 
 - Programador en **JavaScript**
 
@@ -8,4 +9,4 @@
 
 - Vivo en Madrid
 
-- Perfil [] ()
+- Perfil [mi enlace] (https://es.linkedin.com/in/francisco-javier-rabasco-moreno-78aaa961)
